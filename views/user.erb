@@ -1,0 +1,16 @@
+<div class='profile'>
+<a href='<%= @user.profile_url %>'>
+  <img src="<%= @user.image_url(48) %>" width="48" height="48" />
+  <h2><%= @user.username %></h2>
+</a>
+</div>
+
+<h3><strong><%= @user.explored_count %></strong> routes explored:</h3>
+
+<ul>
+  <% for exploration in @user.explorations %>
+    <li><code><%= exploration.name %></code></li>
+  <% end %>
+</ul>
+
+<p><a href='/auth/logout'>Log out</a></p>

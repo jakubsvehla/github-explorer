@@ -1,0 +1,9 @@
+<h2>Routes</h2>
+<% for category in @categories %>
+  <h2><%= category.name %></h2>
+  <ul>
+  <% for route in category.routes %>
+    <li><code><%= route.method %> <%= route.name %></code></li>
+  <% end %>
+  </ul>
+<% end %>

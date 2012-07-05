@@ -1,0 +1,101 @@
+method,category,route
+GET,gists,/users/:user/gists
+GET,gists,/gists
+GET,gists,/gists/public
+GET,gists,/gists/starred
+GET,gists,/gists/:id
+GET,gists,/gists/:id/star
+GET,gists,/gists/:gist_id/comments
+GET,gists,/gists/comments/:id
+GET,git data,/repos/:user/:repo/git/blobs/:sha
+GET,git data,/repos/:user/:repo/commits/:sha
+GET,git data,/repos/:user/:repo/git/refs/:ref
+GET,git data,/repos/:user/:repo/git/refs
+GET,git data,/repos/:user/:repo/git/refs/tags
+GET,git data,/repos/:user/:repo/git/tags/:sha
+GET,git data,/repos/:user/:repo/git/trees/:sha
+GET,issues,/issues
+GET,issues,/repos/:user/:repo/issues
+GET,issues,/repos/:user/:repo/issues/:number
+GET,issues,/repos/:user/:repo/issues/:number/comments
+GET,issues,/repos/:user/:repo/issues/comments/:id
+GET,issues,/repos/:user/:repo/issues/:issue_number/events
+GET,issues,/repos/:user/:repo/issues/events
+GET,issues,/repos/:user/:repo/issues/events/:id
+GET,issues,/repos/:user/:repo/labels
+GET,issues,/repos/:user/:repo/labels/:name
+GET,issues,/repos/:user/:repo/issues/:number/labels
+GET,issues,/repos/:user/:repo/milestones/:number/labels
+GET,issues,/repos/:user/:repo/milestones
+GET,issues,/repos/:user/:repo/milestones/:number
+GET,orgs,/users/:user/orgs
+GET,orgs,/user/orgs
+GET,orgs,/orgs/:org
+GET,orgs,/orgs/:org/members
+GET,orgs,/orgs/:org/members/:user
+GET,orgs,/orgs/:org/public_members
+GET,orgs,/orgs/:org/public_members/:user
+GET,orgs,/orgs/:org/teams
+GET,orgs,/teams/:id
+GET,orgs,/teams/:id/members
+GET,orgs,/teams/:id/members/:user
+GET,orgs,/teams/:id/repos
+GET,orgs,/teams/:id/repos/:user/:repo
+GET,pull requests,/repos/:user/:repo/pulls
+GET,pull requests,/repos/:user/:repo/pulls/:number
+GET,pull requests,/repos/:user/:repo/pulls/:number/commits
+GET,pull requests,/repos/:user/:repo/pulls/:number/files
+GET,pull requests,/repos/:user/:repo/pulls/:number/merge
+GET,pull requests,/repos/:user/:repo/pulls/:number/comments
+GET,pull requests,/repos/:user/:repo/pulls/comments/:number
+GET,repos,/user/repos
+GET,repos,/users/:user/repos
+GET,repos,/orgs/:org/repos
+GET,repos,/repos/:user/:repo
+GET,repos,/repos/:user/:repo/contributors
+GET,repos,/repos/:user/:repo/languages
+GET,repos,/repos/:user/:repo/teams
+GET,repos,/repos/:user/:repo/tags
+GET,repos,/repos/:user/:repo/branches
+GET,repos,/repos/:user/:repo/collaborators
+GET,repos,/repos/:user/:repo/collaborators/:user
+GET,repos,/repos/:user/:repo/comments
+GET,repos,/repos/:user/:repo/commits/:sha/comments
+GET,repos,/repos/:user/:repo/comments/:id
+GET,repos,/repos/:user/:repo/commits
+GET,repos,/repos/:user/:repo/commits/:sha
+GET,repos,/repos/:user/:repo/compare/:base...:head
+GET,repos,/repos/:user/:repo/readme
+GET,repos,/repos/:user/:repo/contents/:path
+GET,repos,/repos/:user/:repo/:archive_format/:ref
+GET,repos,/repos/:user/:repo/downloads
+GET,repos,/repos/:user/:repo/downloads/:id
+GET,repos,/repos/:user/:repo/forks
+GET,repos,/repos/:user/:repo/keys
+GET,repos,/repos/:user/:repo/keys/:id
+GET,repos,/repos/:user/:repo/watchers
+GET,repos,/users/:user/watched
+GET,repos,/user/watched
+GET,repos,/user/watched/:user/:repo
+GET,repos,/repos/:user/:repo/hooks
+GET,repos,/repos/:user/:repo/hooks/:id
+GET,users,/users/:user
+GET,users,/user
+GET,users,/user/emails
+GET,users,/users/:user/followers
+GET,users,/user/followers
+GET,users,/users/:user/following
+GET,users,/user/following
+GET,users,/user/following/:user
+GET,users,/user/keys
+GET,users,/user/keys/:id
+GET,events,/events
+GET,events,/repos/:user/:repo/events
+GET,events,/repos/:user/:repo/issues/events
+GET,events,/networks/:user/:repo/events
+GET,events,/orgs/:org/events
+GET,events,/users/:user/received_events
+GET,events,/users/:user/received_events/public
+GET,events,/users/:user/events
+GET,events,/users/:user/events/public
+GET,events,/users/:user/events/orgs/:org

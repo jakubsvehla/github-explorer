@@ -1,0 +1,33 @@
+<html>
+<head>
+  <title>GitHub Explorer</title>
+  <link href="/stylesheets/styles.css" rel="stylesheet" type="text/css" />  
+</head>
+
+<body>
+
+<div class='wrapper'>
+  <header>
+
+    <h1><a href='/'>github:explorer</a></h1>
+
+    <% if current_user %>
+      <a class="profile btn" href="/user">
+        <img src="<%= current_user.image_url %>" width="24" height="24" />
+        <%= current_user.username %>
+      </a>
+    <% else %>
+      <a href="/auth/login" class='auth'>Sign in with Github</a>
+    <% end %>
+
+  </header>
+
+  <section>
+
+    <%= yield %>
+
+  </section>
+</div>
+
+<body>
+</html>
