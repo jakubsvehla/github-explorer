@@ -1,2 +1,3 @@
 tmp/
 .powenv
+Gemfile.lock
