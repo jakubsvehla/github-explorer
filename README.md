@@ -6,7 +6,7 @@ Explore the GitHub API like a boss!
 
 Github Explorer requires Ruby 1.9.2+, PostgreSQL and Redis.
 
-And you need to [register you application][register] before getting started to get a client id and client secret.
+You also need to [register your application][register] before getting started to get a client id and client secret.
 
     $ bundle install
 
@@ -24,4 +24,14 @@ And you need to [register you application][register] before getting started to g
 
 **Now you are ready to explore!**
 
+## Demo app
+
+[http://github-explorer.herokuapp.com][demo]
+
+It's running on [Heroku][heroku] and using [Heroku Postgres][postgres] and [Redis To Go][redistogo].
+
 [register]: 'https://github.com/settings/applications/new'
+[demo]: 'http://github-explorer.herokuapp.com'
+[heroku]: 'http://www.heroku.com'
+[postgres]: 'https://postgres.heroku.com/'
+[redistogo]: 'http://redistogo.com/'
