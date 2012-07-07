@@ -30,8 +30,8 @@ You also need to [register your application][register] before getting started to
 
 It's running on [Heroku][heroku] and using [Heroku Postgres][postgres] and [Redis To Go][redistogo].
 
-[register]: 'https://github.com/settings/applications/new'
-[demo]: 'http://github-explorer.herokuapp.com'
-[heroku]: 'http://www.heroku.com'
-[postgres]: 'https://postgres.heroku.com/'
-[redistogo]: 'http://redistogo.com/'
+[register]: https://github.com/settings/applications/new
+[demo]: http://github-explorer.herokuapp.com
+[heroku]: http://www.heroku.com
+[postgres]: https://postgres.heroku.com/
+[redistogo]: http://redistogo.com/
